@@ -1,0 +1,98 @@
+
+.navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    margin-right: 5rem;
+    color: black !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #495057 !important;
+    margin-right: 1.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: black !important;
+}
+
+.navbar-nav .nav-link i {
+    font-size: 1.25rem;
+    color: black;
+}
+
+/* --- Hero Section Styles --- */
+
+.hero-bg-color {
+    background-color: #CDE8E4;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #171717;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #171717;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.hero-search-form {
+    max-width: 450px;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-input {
+    border: none !important;
+    background-color: transparent !important;
+    padding: 1rem 1.25rem;
+    box-shadow: none !important;
+}
+
+.hero-input::placeholder {
+    color: #6c757d;
+}
+
+.hero-search-btn {
+    background-color: #66A39D;
+    color: white;
+    border: none;
+    border-radius: 0 0.5rem 0.5rem 0;
+    padding: 1rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-search-btn i {
+    font-size: 1.25rem;
+}
+
+.hero-image-placeholder {
+    width: 100%;
+    height: 450px;
+}
+
+.cardImage {
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
