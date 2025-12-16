@@ -1,11 +1,10 @@
-
 .navbar {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
 .navbar-brand {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 0.15rem;
     margin-right: 5rem;
@@ -95,4 +94,46 @@
 .cardImage {
     margin-left: 7rem;
     margin-top: 3rem;
+}
+
+
+.catSection {
+    background-color: #CDE8E4;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+.accessories {
+    margin-top: 4rem;
+}
+
+.acceCard {
+    background-color: #CDE8E4;
+    border: none;
+}
+
+.feedbackCard {
+    width: 35rem;
+    margin-top: 5rem;
+}
+
+.bg-light-green {
+
+    background-color: #CDE8E4;
+
+}
+
+
+#viberate {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+  display: block; 
+}
+
+
+#viberate:hover {
+  transform: translateY(-5px) scale(1.03); 
+  z-index: 10;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
